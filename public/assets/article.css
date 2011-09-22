@@ -5,15 +5,15 @@ body {
 .container {
 	width:1030px;
 	margin:0;
-	padding:0;
+	padding-left:1em;
 }
 
 h1 {
+	text-align:center;
 	font-size:6em;
 	font-weight:normal;
 	padding-top:.2em;
-	margin:0;
-	text-align:center;
+	padding-bottom:.2em;
 }
 
 p {
@@ -22,14 +22,44 @@ p {
 	padding:0;
 }
 
+.subhead {
+	text-indent:0em;
+	text-align:center;
+	padding-top:.1em;
+}
+
 .last_line {
 	text-indent:0em;
 	margin:0;
 	padding:0;	
 }
 
-.column {
+.wide_column {
 	width:15.6em;
 	float:left;
-	padding:1em;
+	padding: 0em 2em 0em 0em;
+/*	border:1px solid blue;*/
+}
+
+.tiny_column {
+	width:9.8em;
+	float:left;
+	padding: 0em 2em 0em 0em;
+/*	border:1px solid red;*/
+}
+
+.fat_column {
+	float:left;
+	width:15.6em;
+	padding: 0em 1em 1em 1em;
+/*	border:1px solid black;*/
+}
+
+.center_column {
+	width:36.2em;
+	float:left;
+}
+
+.center_everything {
+	float:left;
 }
