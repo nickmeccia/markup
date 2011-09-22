@@ -1,0 +1,76 @@
+body {
+	font-size:.9em;
+}
+
+.container {
+	width:790px;
+	height:685px;
+	border-collapse:collapse;
+	border:6px solid black;
+}
+
+.left {
+	float:left;
+	margin:10px;
+}
+
+.header {
+	width:100%; /*429px*/
+	height:50px;
+	margin-bottom:10px;
+	background-color:red;
+	color:white;
+	font-size:1.2em;
+	text-align:center;
+	padding-top:20px;
+	font-weight:bold;	
+}
+
+.title {
+	font-size:1.6em;
+	letter-spacing:.3em;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.divider {
+	float:left;
+	background-color:red;
+	width:10px;
+	height:592px;
+	margin: 10px 0px 10px 0px;
+}
+
+.main_table {
+	border-collapse:collapse;
+	border:2px solid black;
+	text-align:center;
+}
+
+.bottom_table td {
+	float:clear;
+	border-style:none;
+	padding: 0px 18px 0px 10px;
+	text-align:center;
+/*	border:0;*/
+/*	border-collapse:collapse;*/
+}
+
+td {
+	vertical-align:text-top;
+	border:2px solid black;
+	padding:5px;
+}
+
+.toppings {
+	width:120px;
+	text-align:left;
+}
+
+.subhead {
+	font-size:.8em;
+}
+
+.double_the_price {
+	padding-left:570px;
+}

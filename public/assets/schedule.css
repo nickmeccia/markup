@@ -1,19 +1,46 @@
 body {
 	font-family:Helvetica, sans-serif;
+	font-size:.85em;
+}
+
+.container {
+	width:880px;
+}
+
+h1 {
+	text-align:center;
+}
+
+h2 {
+	font-size:1em;
+	margin-bottom:0px;
 }
 
 table {
 	border-collapse:collapse;
-	border:1px solid black;
+	border:3px solid black;
 }
 
-table td {
+td {
 	text-align:center;
-	padding:2px 30px 2px 30px;
+	padding:2px 15px 2px 15px;
+	border-left:2px solid black;
 }
 
-table th {
+th {
 	text-align:left;
-	border:1px solid black;
-	padding:2px 100px 2px 0px;
+	padding:2px 50px 2px 2px;
+}
+
+.fill {
+	background-color:gray;	
+}
+
+.bottom_border {
+	border-bottom:1px solid black;
+}
+
+.bottom_border_fill {
+	background-color:gray;	
+	border-bottom:1px solid black;
 }
