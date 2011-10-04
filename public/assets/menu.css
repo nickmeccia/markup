@@ -3,8 +3,10 @@ body {
 }
 
 .container {
-	width:790px;
-	height:685px;
+/*	width:790px;*/
+	width:807px;
+/*	height:685px;*/
+	height:740px;
 	border-collapse:collapse;
 	border:6px solid black;
 }

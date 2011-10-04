@@ -4,16 +4,17 @@ body {
 }
 
 .container {
-	width:880px;
+	width:900px;
 }
 
 h1 {
 	text-align:center;
 }
 
-h2 {
-	font-size:1em;
+caption {
+	font-size:21px;
 	margin-bottom:0px;
+	color:red;
 }
 
 table {
@@ -30,6 +31,10 @@ td {
 th {
 	text-align:left;
 	padding:2px 50px 2px 2px;
+}
+
+tr:nth-child(2n+4) {
+	background-color:gray;
 }
 
 .fill {

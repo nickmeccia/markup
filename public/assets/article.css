@@ -3,9 +3,13 @@ body {
 }
 
 .container {
-	width:1030px;
+	width:980px;
+	height:600px;
 	margin:0;
 	padding-left:1em;
+	padding-bottom:5em;
+	-webkit-column-count: 4;
+	-webkit-column-gap:2em;
 }
 
 h1 {
@@ -14,6 +18,7 @@ h1 {
 	font-weight:normal;
 	padding-top:.2em;
 	padding-bottom:.2em;
+	-webkit-column-span:all;
 }
 
 p {
@@ -22,10 +27,48 @@ p {
 	padding:0;
 }
 
-.subhead {
+.caption {
+	width:200;
+	height:190;
+	-webkit-break-before: column; 
+  -webkit-break-inside: avoid-column; 
+  -webkit-break-after: avoid-column;
+	display:block;
+	float:left;
+	margin-left:-90px;
+	padding:1em;
+}
+
+.caption_pullout {
+	width:200;
+	height:190;
+	-webkit-break-before: column; 
+  -webkit-break-inside: avoid-column; 
+  -webkit-break-after: avoid-column;
+	display:block;
+	float:right;
+	margin-right:70px;
+	margin-bottom:140px;
+	padding:1em;
+}
+
+.caption p {
 	text-indent:0em;
 	text-align:center;
 	padding-top:.1em;
+}
+
+.caption img {
+	text-align:center;
+	
+}
+
+.caption span {
+	width:200;
+	height:190;
+	padding:1em;
+/*	position:absolute;*/
+	text-align:center;
 }
 
 .last_line {
@@ -33,6 +76,21 @@ p {
 	margin:0;
 	padding:0;	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************/
 
 .wide_column {
 	width:15.6em;
