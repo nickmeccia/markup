@@ -8,7 +8,7 @@ body {
 	margin:0;
 	padding-left:1em;
 	padding-bottom:5em;
-	-webkit-column-count: 4;
+	-webkit-column-count:4;
 	-webkit-column-gap:2em;
 }
 
@@ -30,10 +30,7 @@ p {
 .caption {
 	width:200;
 	height:190;
-	-webkit-break-before: column; 
-  -webkit-break-inside: avoid-column; 
-  -webkit-break-after: avoid-column;
-	display:block;
+	display:inline;
 	float:left;
 	margin-left:-90px;
 	padding:1em;
@@ -42,12 +39,9 @@ p {
 .caption_pullout {
 	width:200;
 	height:190;
-	-webkit-break-before: column; 
-  -webkit-break-inside: avoid-column; 
-  -webkit-break-after: avoid-column;
-	display:block;
+	display:inline;
 	float:right;
-	margin-right:70px;
+	margin-right:90px;
 	margin-bottom:140px;
 	padding:1em;
 }
