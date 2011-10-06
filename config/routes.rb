@@ -13,6 +13,8 @@ Markup::Application.routes.draw do
   match "schedule" => "home#schedule"
   match "article" => "home#article"
   match "menu" => "home#menu"
+  match "column_test" => "home#column_test"
+  match "article_old" => "home#article_old"
   
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products

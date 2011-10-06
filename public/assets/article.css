@@ -2,116 +2,79 @@ body {
 	font-size:.9em;
 }
 
-.container {
+* {
+	margin:0;padding:0;
+}
+
+#container {
+/*	width:1030px;*/ 
 	width:980px;
-	height:600px;
-	margin:0;
-	padding-left:1em;
-	padding-bottom:5em;
-	-webkit-column-count:4;
-	-webkit-column-gap:2em;
+	margin:0 auto;
 }
 
 h1 {
 	text-align:center;
-	font-size:6em;
+	font-size:5.5em;
 	font-weight:normal;
-	padding-top:.2em;
-	padding-bottom:.2em;
-	-webkit-column-span:all;
+	padding-top:.3em;
+	padding-bottom:.3em;
 }
 
 p {
 	text-indent:1em;
+	padding:.625em 0;
+	text-align:left;
+	line-height:1.2em;
 	margin:0;
 	padding:0;
 }
 
-.caption {
-	width:200;
-	height:190;
-	display:inline;
+.col {
+/*	width:15.5em;*/
+	width:15em;
+	padding:0 1em;
 	float:left;
-	margin-left:-90px;
-	padding:1em;
 }
 
-.caption_pullout {
-	width:200;
-	height:190;
-	display:inline;
+.CCspace {
+	width:90px;
+	height:140px;
+	padding:5px;
 	float:right;
-	margin-right:90px;
-	margin-bottom:140px;
-	padding:1em;
 }
 
-.caption p {
-	text-indent:0em;
-	text-align:center;
-	padding-top:.1em;
+.CCpullout {
+	width:180px;
+	height:140px;
+	padding:0px;
+	float:left;
+	margin-left:-130px;
 }
 
-.caption img {
-	text-align:center;
-	
-}
-
-.caption span {
-	width:200;
-	height:190;
-	padding:1em;
-/*	position:absolute;*/
+.CCpullout span {
+	width:180px;
+	position:absolute;
 	text-align:center;
 }
 
-.last_line {
+.CCpullout p {
+	padding-top:0.1em;
+	text-align:center;
+	margin-left:-17px;
+}
+
+.CCpullout del {
+	font-size:0px;
+	color:#fff;
+	position:absolute;
+}
+
+.CCpullout img {
+	text-align:center;	
+}
+
+.no_indent {
 	text-indent:0em;
 	margin:0;
 	padding:0;	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***************/
-
-.wide_column {
-	width:15.6em;
-	float:left;
-	padding: 0em 2em 0em 0em;
-/*	border:1px solid blue;*/
-}
-
-.tiny_column {
-	width:9.8em;
-	float:left;
-	padding: 0em 2em 0em 0em;
-/*	border:1px solid red;*/
-}
-
-.fat_column {
-	float:left;
-	width:15.6em;
-	padding: 0em 1em 1em 1em;
-/*	border:1px solid black;*/
-}
-
-.center_column {
-	width:36.2em;
-	float:left;
-}
-
-.center_everything {
-	float:left;
 }

@@ -1,0 +1,53 @@
+
+* {
+	margin:0;padding:0;
+}
+
+p {
+	padding:.625em 0;
+	text-align:justify;
+	line-height:20px;
+}
+
+#overall {
+	width:755px;
+	margin:0 auto;
+	-webkit-column-count:2;
+	-webkit-column-gap:2em;
+}
+
+/*.col {
+	width:365px;
+	padding:0 5px;
+	float:left;
+}*/
+
+.CCspace {
+	width:175px;
+	height:315px;
+	padding:5px;
+	float:right;
+}
+
+.CCpullout {
+	width:350px;
+	height:315px;
+	padding:5px;
+	float:left;
+	margin-left:-185px;
+}
+
+.CCpullout span {
+	width:350px;
+	position:absolute;
+	text-align:center;
+	font-size:.9em;
+	font-weight:bold;
+
+}
+
+.CCpullout del {
+	font-size:0px;
+	color:#fff;
+	position:absolute;
+}
